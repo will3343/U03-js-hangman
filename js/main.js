@@ -19,10 +19,10 @@ lettersArray.forEach(letter => {
 });
 // Object Of Words + Categories
 const words = {
-  programming: ["php", "javascript", "html", "css", "java", "c", "mysql", "python"],
-  movies: ["Prestige", "Inception", "Interstellar", "Whiplash", "Memento", "Hitch", "Home alone"],
-  people: ["Albert Einstein", "Hitchcock", "Alexander", "Cleopatra", "Mahatma Ghandi"],
-  countries: ["Eritrea", "Saudiarabien", "Sverige", "Australien", "USA", "Kuba", "Antarktis"]
+  Programmering: ["php", "javascript", "html", "css", "java", "c", "mysql", "python"],
+  Movies: ["Prestige", "Inception", "Interstellar", "Whiplash", "Memento", "Hitch", "Home alone"],
+  Kändisar: ["Albert Einstein", "Hitchcock", "Alexander", "Cleopatra", "Mahatma Ghandi"],
+  Länder: ["Eritrea", "Saudiarabien", "Sverige", "Australien", "USA", "Kuba", "Antarktis"]
 }
 // Get Random Property
 let allKeys = Object.keys(words);
