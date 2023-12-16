@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+  <head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Hänga Gubbe spel </title>
+    <link rel="icon" type="image/x-icon" href="./image/hangMan.png">
+    <link rel="stylesheet" href="./css/main.css">
+  
+</head>
+  
+<body>
+
+    <div class="container">
+        <div class="game-info">
+
+            <div class="game-name"> U03 - Hänga Gubbe spel  </div>
+
+            <div class="category">
+                 Gissa ordet: <span></span>
+            </div>
+
+        </div>
+
+        <hr>
+
+        <div class="row">
+            <div class="hangman-draw">
+
+                <div class="the-draw">
+
+                    <div class="the-stand"></div>    
+                    <div class="the-hang"></div>   
+                    <div class="the-rope"></div>
+
+                    <div class="the-man">
+
+                        <div class="head"></div>    
+                        <div class="body"></div>    
+                        <div class="hands"></div>   
+                        <div class="legs"></div>
+
+                    </div>
+                </div>
+            </div> 
+            
+                     <div class="letters"></div>
+
+        </div>       
+        
+        <hr>
+
+        <div class="letters-guess"></div>     
+        
+        <a href="./index.html">   
+            <button class="reset" id="reset"> Play again </button>    
+        </a>
+       
+    </div>
+    <footer>
+
+        <p class="center"> 
+            <a href="" class="btn-twtr"> Powered by Chas Academy-Hangman @ Instagram </a>
+        </p>
+
+    </footer>
+
+    <audio id="success" src="/Record/success.wav" preload="auto"></audio>
+    <audio id="fail" src="/Record/fail.wav" preload="auto"></audio>
+
+    <script src="/js/main.js"></script>
+    
+  </body>
+</html>
+

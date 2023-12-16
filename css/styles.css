@@ -1,0 +1,130 @@
+@charset "UTF-8";
+*,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+html{
+  height: 100%;
+}
+body{
+    background-image: url("/images/dark-sky-1.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-family:sans-serif;
+    margin:0;
+    overflow:hidden;
+}
+/*barnd section starts*/
+#brand{  
+    text-align:center;
+    cursor:pointer;
+    margin-top:-10%;
+    width: 80%;
+    height: auto;
+    margin-left: 0;
+    display: block;
+    position: absolute;
+  }  
+/*brand section end*/
+/*hangman text section starts*/
+h1 span{  
+    text-shadow:2px 5px 0 rgba(0, 0, 0, 0.6);
+    font-weight: 700;
+    border:2px solid;
+    border-radius: 6px;
+    line-height: 60px;
+    color: 	#808000;
+    text-decoration:none;
+    margin-top: 0%;
+    margin-left: -10%;
+    text-align: center;
+    border: 2px solid 	#808000;
+    position: absolute;         
+}
+/*Hangman text section end*/
+/*text article section starts*/
+.arti {
+   margin-top: 45%;
+   display: block;
+   align-items: center;
+}
+h2 {
+    color: 	#808000;
+    margin-left: 30%;
+    margin-top: -10%;
+    text-shadow:2px 5px 0 rgba(0, 0, 0, 0.6);
+    font-weight: 600;
+ }
+p{
+    color: 	#808000;
+    margin-left: 30%;
+    font-weight: 500;
+ }
+ /*text article section ends*/
+/*made by section starts*/
+.made_by {  
+    color: 	#808000;
+    text-shadow:2px 5px 0 rgba(0, 0, 0, 0.6);
+    font-size: 11px;
+    font-weight: 700;
+    margin-top:20%;
+    position: absolute;
+    margin-left: 43%;
+    width: 100%;
+}
+/*made by section ends*/
+/*start game button section starts*/
+.btn_b{
+background-color: inherit;
+color: 	#808000;
+font-weight: 700;
+border-color: 	#808000;
+border-radius: 5px;
+font-size: 40px;
+align-items: center;
+text-shadow:2px 5px 0 rgba(0, 0, 0, 0.6);
+transition: 0.4s;
+margin-top: 10%;
+margin-left: 45%;
+line-height: 45px;
+padding:10px;
+}
+.btn_b:hover {  
+    color:white;
+    background-color: 	#808000;
+    text-shadow:2px 5px 0 rgba(0,0,0,0.6);
+}
+/*start game button section end*/
+/*Footer section starts*/
+.btn-twtr{
+    color: 	#808000;
+    border:2px solid;
+    border-radius:3px;
+    text-decoration:none;
+    display:inline-block;
+    padding:5px 10px;
+    font-family:sans-serif;
+    font-weight:600;
+    margin-top:80vh;
+    background:rgba(0,0,0,0.2);
+    box-shadow:0 0 0px 3px rgba(0,0,0,0.2);
+    opacity:0.8;
+    position:absolute;
+    bottom:20px;
+    right:20px
+}
+.btn-twtr:hover{
+    color:#fff;
+}
+.btn-twtr:after{
+    content:"\1F426";
+    padding-left:5px;
+}
+/*Footer section end*/
