@@ -302,3 +302,129 @@
     content:"\1F426";
     padding-left:5px;
 }
+
+@media screen and (min-width: 390px) and (max-width: 844px) { 
+  html{
+    height: 100%;
+  }
+  body {
+    font-family: Tahoma, Arial;
+   /* background: url("/image/dark-sky-21.jpeg");*/
+    width: 100%;
+    position:relative;
+ }
+  .container {
+    width: 80%;
+  }
+  .game-info {
+    margin: 0;
+    display: block;
+  }
+  .game-info .game-name {
+   margin-top: 2%;
+   width: 100%;
+   font-size: 26px;
+   font-weight: 600;
+  }
+  .game-info .category {
+   margin-top: 10%;
+   line-height: 16px;
+   padding-bottom: 10px;
+   display: inline-flexbox;
+  }
+  .row{
+    padding:10px;
+  }
+  .row, .hangman-draw, .le{
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column; 
+  }
+  .hangman-draw .the-hang:after {
+    content: '';
+    position: absolute;
+    width: 4px;
+    height: 30px;
+    background-color: #222;
+    left: 130px;
+    top: 15px;
+  }
+  .hangman-draw {
+    flex: 100%;
+    height: 34px;
+  }
+  .hangman-draw .the-draw {
+    height: 210px;
+  }
+  .hangman-draw .the-rope {
+    width: 60px;
+    height: 60px;
+    border-radius: 45%;
+    left: 100px;
+  }
+  .letters-guess {
+    margin: 10px auto;
+    background-color:  #FDFDFD;
+    border-radius: 3px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    min-height: 94px;
+  }
+  .letters {
+    -webkit-flex: 100%;
+    flex: 100%;
+  }
+  .letters .letter-box {
+    width: 35px;
+    height: 35px;
+    font-size: 16px;
+    margin-right: 5px;
+    line-height: 35px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+  }
+  .reset {
+    margin-top: 50px;
+    font-size: 22px;
+    font-weight: 600;
+    border-radius: 3px;
+    margin-left: 30%;
+    color: 	#808000;
+    background: inherit;
+    border-color: 	#808000;
+    padding:10px;
+    text-shadow: rgba(0,0,0,0.4);
+   }
+   .reset:hover{
+    background-color: 	#808000;
+    color: white;
+   }
+  .popup { 
+    position: fit-content;
+    padding: 100px 20px;
+    width: 100%;
+    height: 58%;
+    top: 10%;
+    left: -5%;
+    text-align: center;
+    font-size: 20px;
+    border: 1px solid #CCC;
+    color: #808000;
+}
+/*Footer section starts*/
+.btn-twtr{
+    margin-bottom: -50%;
+    margin-left: 6px;
+    font-size: 12px;
+    font-weight: 600;
+}
+.btn-twtr:hover{
+  color:#fff;  
+}
+.btn-twtr:after{
+  content:"\1F426";
+  padding-left:5px;
+}
+}
