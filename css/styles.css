@@ -128,3 +128,44 @@ padding:10px;
     padding-left:5px;
 }
 /*Footer section end*/
+
+/*Media queries for small devices*/
+@media screen and (min-width: 390px) and (max-width: 844px) 
+{
+   
+    body {
+      position: fixed;
+    }
+    #brand{
+       display: block;
+       margin-left: 15%;
+    }
+    h1 span{
+     font-size: 25px;
+     margin-top: -190px;
+     display: block;
+    }
+    .made_by{
+     margin-left: 58%;
+    }
+    .arti{
+    
+    }
+    h2{
+     margin-left: 5%;
+     padding-bottom: 10px;
+    }
+    p{
+     padding-top: 10%;
+     margin-left: 1%;
+     max-width: 800px;
+    }
+    .btn_b{
+     font-size: 25px;
+     margin-left: 25%;
+    }
+    .btn-twtr{
+     margin-bottom: -230px;
+     font-size: 10px;
+    }
+  }
